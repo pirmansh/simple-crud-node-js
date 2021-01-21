@@ -10,8 +10,8 @@
 git clone https://github.com/pirmansh/simple-crud-node-js.git
 ```
 
-- Export database `example` yang ada pada root direktori project aplikasi
-- Setelah berhasil meng-export database, melalui terminal pada root direktori project jalankan perintah berikut:
+- Import database `example` yang ada pada root direktori project aplikasi
+- Setelah berhasil meng-import database, melalui terminal pada root direktori project jalankan perintah berikut:
 
 ```
 npm install
@@ -23,6 +23,7 @@ npm install
 npm start
 ```
 
+- Aplikasi akan berjalan pada http://localhost:2000
 - Untuk konfigurasi database ada pada folder `simple-crud-node-js/util/database.js`.
 - Untuk login ke aplikasi menggunakan email `admin@mail.com` dengan password `admin`.
 
