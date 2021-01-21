@@ -1,0 +1,60 @@
+<div class="modal fade text-left" id="logout" tabindex="-1" role="dialog"
+aria-labelledby="myModalLabel120" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+<div class="modal-content">
+    <div class="modal-header bg-danger">
+    <h5 class="modal-title white" id="myModalLabel120">Are You Sure To Exit?</h5>
+    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+        <i data-feather="x"></i>
+    </button>
+    </div>
+    <div class="modal-body">
+        Are you sure you want to continue?
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+        <i class="bx bx-x d-block d-sm-none"></i>
+        <span class="d-none d-sm-block">Cancel</span>
+    </button>
+    <a href="/logout" class="btn btn-danger ml-1">
+        Yes
+    </a>
+    </div>
+</div>
+</div>
+</div>
+
+<footer>
+    <div class="footer clearfix mb-0 text-muted">
+        <div class="float-start">
+            <p>2020 &copy; Indihome</p>
+        </div>
+        <div class="float-end">
+            <p>Crafted with <span class='text-danger'><i data-feather="heart"></i></span> by <a href="https://www.pirmansyah.id">Pirmansyah</a></p>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+<script src="/assets/js/feather-icons/feather.min.js"></script>
+<script src="/assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/main.js"></script>
+
+<!-- dashboard -->
+<% if(path === '/admin/dashboard') {%> 
+<script src="/assets/vendors/chartjs/Chart.min.js"></script>
+<script src="/assets/vendors/apexcharts/apexcharts.min.js"></script>
+<script src="/assets/js/pages/dashboard.js"></script>
+<% }  %> 
+<!--  -->
+
+<!-- page all admin & tiket -->
+<% if(path === '/admin/all' || path === '/tiket/all' || path === '/data/all') {%> 
+<script src="/assets/vendors/simple-datatables/simple-datatables.js"></script>
+<script src="/assets/js/vendors.js"></script>
+<% }  %> 
+<!--  -->
+
+</body>
+</html>

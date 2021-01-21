@@ -1,0 +1,66 @@
+<div id="app">
+    <div id="sidebar" class='active'>
+        <div class="sidebar-wrapper active">
+<div class="sidebar-header">
+    <img src="/assets/images/logo.svg" alt="" srcset="">
+</div>
+<div class="sidebar-menu">
+    <ul class="menu">
+        
+        
+            <li class='sidebar-title'>Main Menu</li>
+        
+     
+            <li class="sidebar-item <%= path === '/admin/dashboard' ? 'active' : '' %> ">
+                <a href="/admin/dashboard" class='sidebar-link'>
+                    <i data-feather="home" width="20"></i> 
+                    <span>Dashboard</span>
+                </a>
+                
+            </li>
+
+
+            <li class='sidebar-title'>Data &amp; Others</li>
+        
+    
+            <li class="sidebar-item <%= path === '/admin/all' || pathParrent === '/admin' ? 'active' : '' %> ">
+                <a href="/admin/all" class='sidebar-link'>
+                    <i data-feather="user" width="20"></i> 
+                    <span>Admin</span>
+                </a>
+                
+            </li>
+     
+        
+            <li class="sidebar-item <%= path === '/data/all' || pathParrent === '/data' ? 'active' : '' %> ">
+                <a href="/data/all" class='sidebar-link'>
+                    <i data-feather="layers" width="20"></i> 
+                    <span>Data</span>
+                </a>
+                
+            </li>
+
+            
+            <!-- <li class="sidebar-item  ">
+                <a href="" class='sidebar-link'>
+                    <i data-feather="grid" width="20"></i> 
+                    <span>Table</span>
+                </a>
+                
+            </li> -->
+  
+        
+            <li class="sidebar-item">
+                <a  data-bs-toggle="modal" data-bs-target="#logout" href="#" class='text-danger sidebar-link'>
+                    <i data-feather="log-out" width="20"></i> 
+                    <span class="text-danger">Logout</span>
+                </a>
+                
+            </li>
+
+    
+    </ul>
+</div>
+<button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+</div>
+    </div>
