@@ -7,7 +7,7 @@
 - Download file atau clone aplikasi
 
 ```
-https://github.com/pirmansh/simple-crud-node-js.git
+git clone https://github.com/pirmansh/simple-crud-node-js.git
 ```
 
 - Export database `example` yang ada pada root direktori project aplikasi
