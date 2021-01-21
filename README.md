@@ -24,5 +24,6 @@ npm start
 ```
 
 - Untuk konfigurasi database ada pada folder `simple-crud-node-js/util/database.js`.
+- Untuk login ke aplikasi menggunakan email `admin@mail.com` dengan password `admin`.
 
 Template admin menggunakan [Voler](https://github.com/zuramai/voler)
